@@ -260,3 +260,23 @@ INSERT INTO Movie (production, voice_dub, Hero, visuals, characters, heroin, lig
 INSERT INTO Movie (production, voice_dub, Hero, visuals, characters, heroin, lightboys, music, director, cameraman) VALUES
 ('UVW Films', 'No', 'Andrew', 'Breathtaking', 'Captivating', 'Ava', '3', 'Energetic', 'David', 'Jacob');
 SELECT * FROM Movie;
+
+SELECT Age From bio where blood_group = 'O+';
+
+SELECT Colour From bottle where material = 'Plastic';
+
+SELECT player_age From sports where player_place = 'First';
+
+SELECT ticket_language From tickets where bus_type = 'AC';
+
+SELECT locking From windows where Style = 'Casement';
+
+SELECT color From refrigerator where brand = 'LG';
+
+SELECT platform_count From railway_station where location = 'Hydrabad';
+
+SELECT price From oven where brand = 'Samsung';
+
+SELECT Hero From movie where production = 'UVW Films';
+
+SELECT no_of_malls From bengalore where bus_price = 25;
